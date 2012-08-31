@@ -39,16 +39,16 @@ namespace OutlookTest
                     Console.WriteLine("{0}", folder.Name);
                     foreach (Outlook.MAPIFolder innerFolder in folder.Folders)
                     {
-                        Console.WriteLine("++{0}", innerFolder.Name);
+                        Console.WriteLine("+++{0}", innerFolder.Name);
                         if (innerFolder.Name == "Inbox")
                         {
                             Outlook.Items items = innerFolder.Items;
                             foreach (Outlook.MailItem item in items)
                             {
-                                Console.WriteLine("++--{0}", item.Subject);
+                                Console.WriteLine("+++--{0}", item.Subject);
                                 foreach (Outlook.Attachment att in item.Attachments)
                                 {
-                                    Console.WriteLine("++--..{0}: {1}", att.FileName, att.PathName);
+                                    Console.WriteLine("+++---...{0}: {1}", att.FileName, att.PathName);
                                 }
                             }
                         }
