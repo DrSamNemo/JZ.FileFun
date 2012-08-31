@@ -1,0 +1,5 @@
+c:\users\zimmermanjm\documents\visual studio 2010\Projects\OutlookTest\OutlookTest\bin\Debug\OutlookTest.exe
+c:\users\zimmermanjm\documents\visual studio 2010\Projects\OutlookTest\OutlookTest\bin\Debug\OutlookTest.pdb
+c:\users\zimmermanjm\documents\visual studio 2010\Projects\OutlookTest\OutlookTest\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\zimmermanjm\documents\visual studio 2010\Projects\OutlookTest\OutlookTest\obj\x86\Debug\OutlookTest.exe
+c:\users\zimmermanjm\documents\visual studio 2010\Projects\OutlookTest\OutlookTest\obj\x86\Debug\OutlookTest.pdb
