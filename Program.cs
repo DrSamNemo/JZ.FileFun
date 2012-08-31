@@ -19,7 +19,7 @@ namespace OutlookTest
             if (Process.GetProcessesByName("OUTLOOK").Count() > 0)
             {
                 app = Marshal.GetActiveObject("Outlook.Application") as Outlook.Application;
-                Console.WriteLine("Got the active outlook object!");
+                Console.WriteLine("Got the magical active outlook object!");
             }
             else
             {
@@ -39,7 +39,7 @@ namespace OutlookTest
                     foreach (Outlook.MAPIFolder innerFolder in folder.Folders)
                     {
                         Console.WriteLine("++{0}", innerFolder.Name);
-                        if (innerFolder.Name == "Inbox")
+                        if (innerFolder.Name == "Magical Inbox")
                         {
                             Outlook.Items items = innerFolder.Items;
                             foreach (Outlook.MailItem item in items)
